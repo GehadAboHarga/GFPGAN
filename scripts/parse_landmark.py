@@ -8,7 +8,7 @@ from collections import OrderedDict
 
 # ---------------------------- This script is used to parse facial landmarks ------------------------------------- #
 # Configurations
-save_img = False
+save_img = True
 scale = 0.5  # 0.5 for official FFHQ (512x512), 1 for others
 enlarge_ratio = 1.4  # only for eyes
 json_path = 'ffhq-dataset-v2.json'
